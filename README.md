@@ -58,6 +58,10 @@ We can visualize this by running the following code:
 plot(groceries, main=NULL, cols=rgb(0,0,0,.2), pch=20)
 ```
 
+<p align="center">
+  <img src="images/grocery_stores.png">
+</p>
+
 Now, we will play around with the population density raster file. Population density values for an administrative layer are usually quite skewed. The following code chunk generates a histogram from the California population raster layer.
 
 ```{r pop raster hist}
